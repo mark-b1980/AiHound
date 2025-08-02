@@ -1,0 +1,11 @@
+# Ignore Maven pom-file in root directory and auto-generated Maven files in all subdirectories
+/pom.xml
+**/dependency-reduced-pom.xml
+
+# Ignore all log files
+**/*.log
+**/*.html
+
+# Ignore all compiled Java class files
+target/*
+**/target/*
